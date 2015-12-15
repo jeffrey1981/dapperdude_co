@@ -1,74 +1,80 @@
 body {
   font-family: 'Ubuntu Condensed', ariel;
-  color: #000033;
+  color: #380000;
+  background-color: white;
 }
 
 /*navbar styling and links*/
 
 #navbarbackground {
-  background-color: white;
-  height: 20px;
-
+  background-color: none;
+  height: 60px;
+  padding-top: 10px;
+  border: 1px solid #380000;
 }
 
-#navLinks {
-  color: #000033;
-  font-size: 20px;
+#nav-left a {
+  padding-left: 1px;
+  color: #380000;
+  font-size: 30px;
 }
 
-#nav-left {
-  padding-left: 30px;
-  color: #000033;
-  font-size: 20px;
-}
-
-#nav-center a {
-  padding-left: 120px;
-  color: #000033;
+#newarrival {
+  padding-left: 250px;
+  vertical-align: center;
+  color: #380000;
   font-size: 20px;
 
 }
 
-/*#nav-right {
-  text-align: center;
-  padding-top: 15px;
-  padding-left: 22%;
-  font-size: 17px;
-}*/
+#theman {
+  margin-left: 10px;
+  padding-left: 20px;
+  vertical-align: center;
+  color: #380000;
+  font-size: 20px;
+}
+
+#lifestyle {
+  margin-left: 10px;
+  padding-left: 20px;
+  vertical-align: center;
+  color: #380000;
+  font-size: 20px;
+}
+
+#lifestyle {
+  margin-left: 10px;
+  padding-left: 20px;
+  vertical-align: center;
+  color: #380000;
+  font-size: 20px;
+
+#manifest {
+  margin-left: 10px;
+  padding-left: 20px;
+  vertical-align: center;
+  color: #380000;
+  font-size: 20px;
+}
 
 #nav-left, #nav-center, #nav-right {
   display: inline-block;
+  vertical-align: center;
 }
 
-/*.navbar {
-  background-color: white;
+#nav-right {
   text-align: center;
-  color: #000033;
-  font-size: 20px;
-
-}*/
-/*
-#nav-center {
-  margin-right: 90px;
-  background-color: white;
-  text-align: center;
-  color: #000033;
-  font-size: 20px;
-
-
-
-}
-
-#nav-left {
-  text-align: left;
-  font-size: 30px;
-  color: #003366;
-  float: left;
-
+  vertical-align: center;
+  padding-top: 15px;
+  padding-left: 22%;
+  font-size: 17px;
 }
 
 
-#navlinks a {
-  color: #000033;
-}
-*/
+
+
+
+
+
+
