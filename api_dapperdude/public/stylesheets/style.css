@@ -1,8 +1,74 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu Condensed', ariel;
+  color: #000033;
 }
 
-a {
-  color: #00B7FF;
+/*navbar styling and links*/
+
+#navbarbackground {
+  background-color: white;
+  height: 20px;
+
 }
+
+#navLinks {
+  color: #000033;
+  font-size: 20px;
+}
+
+#nav-left {
+  padding-left: 30px;
+  color: #000033;
+  font-size: 20px;
+}
+
+#nav-center a {
+  padding-left: 120px;
+  color: #000033;
+  font-size: 20px;
+
+}
+
+/*#nav-right {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 22%;
+  font-size: 17px;
+}*/
+
+#nav-left, #nav-center, #nav-right {
+  display: inline-block;
+}
+
+/*.navbar {
+  background-color: white;
+  text-align: center;
+  color: #000033;
+  font-size: 20px;
+
+}*/
+/*
+#nav-center {
+  margin-right: 90px;
+  background-color: white;
+  text-align: center;
+  color: #000033;
+  font-size: 20px;
+
+
+
+}
+
+#nav-left {
+  text-align: left;
+  font-size: 30px;
+  color: #003366;
+  float: left;
+
+}
+
+
+#navlinks a {
+  color: #000033;
+}
+*/
