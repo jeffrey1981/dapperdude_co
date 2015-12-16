@@ -1,0 +1,22 @@
+<div class="lifestylemenu" id="life">
+  <div class="navbar-header text-center">
+    <div id="navlinks">
+      <a id="wool" ui-sref="wool" style="text-decoration: none">Wool & Leather</a>
+      <a id="Camping" href="camping" style="text-decoration: none">Camping</a>
+      <a id="home" ui-sref="home" style="text-decoration: none">Home</a>
+    </div>
+  </div>
+</div>
+
+<section class="The Mens Shop" id="menshop">
+    <div id="storefront">
+      <h1 id="contactme">Live the Life</h1>
+    </div>
+</section>
+
+<section>
+  <div ng-repeat="item in vm.items">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.price }}</p>
+  </div>
+</section>

@@ -1,53 +1,104 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="dapperApp">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./assets/stylesheets/style.css">
   <meta charset="UTF-8">
   <title>Jeffrey Steven</title>
     </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbarbackground" role="navigation">
-            <div class="col-md-4" id="nav-left">
-              <img class="logoImage" id="logoPipe" src="./assets/images/pipe.png" width="100px" height="60px"/></a>
-              &nbsp;&nbsp;
-              <a class="navbar-brand" id="navLinks" href="logo" style="text-decoration: none">The Dapper Dude & Co.</a>
-            </div>
+      <body>
 
-            <div class="collapse navbar-collapse navHeaderCollapse col-md-4" id="nav-center">
-                <div class="navbar-header text-center">
-                  <div id="navlinks">
-                    <a id="newarrival" href="#new" style="text-decoration: none">New Arrivals</a>
-                    <a id="theman" href="#themasn" style="text-decoration: none">The Man</a>
-                    <a id="lifestyle" href="#life" style="text-decoration: none">Lifestyle</a>
-                    <a id="lifestyle" href="#charity" style="text-decoration: none">Be Good</a>
-                    <a id="lifestyle" href="#manifest" style="text-decoration: none">Manifest</a>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-4 border">
+                  <img class="logoImage" id="logoPipe" src="./assets/images/pipe.png" width="100px" height="60px"/></a>
+                  <a id="homepage" ui-sref="home" style="text-decoration: none">The Dapper Dude & Co.</a>
+              </div>
+              <div class="col-xs-4 border center">
+                  <a id="theman" ui-sref="theman" style="text-decoration: none">The Man</a>
+                  <a id="lifestyle" ui-sref="life" style="text-decoration: none">Lifestyle</a>
+                  <a id="begood" ui-sref="begood" style="text-decoration: none">Be Good</a>
+                  <a id="manifesto" ui-sref="manifest" style="text-decoration: none">Manifesto</a>
+              </div>
+              <div class="col-xs-4 border">
+            </div>
+          </div>
+
+          <div class="empty">
+              <ui-view></ui-view>
+          </div>
+<!--
+          <container class="The Mens Shop" id="menshop">
+              <div id="store">
+                <h1 id="storefront">The Man</h1>
+              </div>
+          </container>
+ -->
+
+
+
+
+
+            <!-- <div class="mensmenu" id="mens">
+              <div class="navbar-header text-center">
+                <div id="navlinks">
+                  <a id="bottoms" href="#bottoms" style="text-decoration: none">Bottoms</a>
+                  <a id="tops" href="#tops" style="text-decoration: none">Tops</a>
+                  <a id="outerwear" href="#outterwesr" style="text-decoration: none">Outerwear</a>
+                  <a id="feet" href="#feet" style="text-decoration: none">Feet</a>
                 </div>
               </div>
-           </div>
+            </div> -->
 
-      <!--       <div class="collapse navbar-collapse navHeaderCollapse col-md-4" id="nav-right">
-              <h1><span class="glyphicon glyphicon-search"> </span></h1>
-                <button type="button" id"shoppingcart" class="btn btn-default">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                </button>
-            </div>
-        </nav> -->
-<!--
-         <div class="menumen" id="">
-             <div class="navbar-header text-center">
-               <div id="navlinks">
-                 <a id="newarrival" href="#new" style="text-decoration: none">New Arrivals</a>
-                 <a id="theman" href="#themasn" style="text-decoration: none">The Man</a>
-                 <a id="lifestyle" href="#life" style="text-decoration: none">Lifestyle</a>
-                 <a id="lifestyle" href="#charity" style="text-decoration: none">Be Good</a>
-                 <a id="lifestyle" href="#manifest" style="text-decoration: none">Manifest</a>
-             </div>
-           </div>
-        </div> -->
+            <!--
+            <div class="lifestylemenu" id="life">
+              <div class="navbar-header text-center">
+                <div id="navlinks">
+                  <a id="blankets" href="#blankets" style="text-decoration: none">Blankets</a>
+                  <a id="Camping" href="#camping" style="text-decoration: none">Camping</a>
+                  <a id="home" href="#home" style="text-decoration: none">Home</a>
+                </div>
+              </div>
+            </div> -->
+
+               <!--
+            <div class="begoodcharities" id="begood">
+              <div class="navbar-header text-center">
+                <div id="navlinks">
+                  <a id="Home" href="#home" style="text-decoration: none">Bottoms</a>
+                  <a id="Camping" href="#camping" style="text-decoration: none">Tops</a>
+                  <a id="Nerdy" href="#nerdy" style="text-decoration: none">Outerwear</a>
+                </div>
+              </div>
+            </div> -->
+
+               <!--
+            <div class="Manifesto" id="life">
+              <div class="navbar-header text-center">
+                <div id="navlinks">
+                  <a id="Home" href="#home" style="text-decoration: none">Bottoms</a>
+                  <a id="Camping" href="#camping" style="text-decoration: none">Tops</a>
+                  <a id="Nerdy" href="#nerdy" style="text-decoration: none">Outerwear</a>
+                </div>
+              </div>
+            </div> -->
+
+
+
+
+
+
+
+
       <script src="./app.module.js"></script>
+      <script src="controllers/home.controller.js"></script>
+      <script src="controllers/life.controller.js"></script>
+      <script src="controllers/manifest.controller.js"></script>
+      <script src="controllers/dogood.controller.js"></script>
+      <script src="controllers/theman.controller.js"></script>
     </body>
     </head>
