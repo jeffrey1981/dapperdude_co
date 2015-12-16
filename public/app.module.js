@@ -21,19 +21,19 @@
         .state("manifest", {
           url: "/manifesto",
           templateUrl: "templates/manifesto.html",
-          controller: "manifestController",
+          controller: "ManifestController",
           controllerAs: "vm"
         })
-        .state("dogood", {
-          url: "/dogood",
+        .state("begood", {
+          url: "/begood",
           templateUrl: "templates/begood.html",
-          controller: "dogoodController",
+          controller: "BegoodController",
           controllerAs: "vm"
         })
         .state("theman", {
           url: "/theman",
           templateUrl: "templates/mensshop.html",
-          controller: "themanController",
+          controller: "ThemanController",
           controllerAs: "vm"
         });
     }]);
