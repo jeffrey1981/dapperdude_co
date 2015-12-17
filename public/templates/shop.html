@@ -1,16 +1,15 @@
-<div class="lifestylemenu" id="life">
+
+<div class="lifestylemenu finalheader" id="life">
   <div class="navbar-header nav-center">
     <div id="navlinks" class="nav-center">
-      <a id="wool" ui-sref="wool" style="text-decoration: none">Wool & Leather</a>
-      <a id="camping" href="camping" style="text-decoration: none">Camping</a>
-      <a id="home" ui-sref="home" style="text-decoration: none">Home</a>
+    <a ng-repeat="submenu in vm.subMenus">{{ submenu.title }}</a>
     </div>
   </div>
 </div>
 
 <section class="The Mens Shop" id="menshop">
     <div id="storefront">
-      <h1 id="contactme">Live Well</h1>
+      <h1 id="contactme">A life well lived</h1>
     </div>
 </section>
 

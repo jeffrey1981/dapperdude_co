@@ -8,5 +8,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/collections/:permalink', collectionsController.getCategory);
+router.get('/collections', collectionsController.index);
 
 module.exports = router;

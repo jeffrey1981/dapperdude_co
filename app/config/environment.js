@@ -1,5 +1,5 @@
 var localEnvVars = {
-  TITLE:      "Dapper Dude & Co.",
+  TITLE:      'dapper_dude_co',
   SAFE_TITLE: 'dapper_dude_co'
 };
 

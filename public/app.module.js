@@ -12,11 +12,20 @@
           controller: "HomeController",
           controllerAs: "vm"
         })
-        .state("life", {
-          url: "/life",
-          templateUrl: "templates/lifestyle.html",
-          controller: "LifeController",
-          controllerAs: "vm"
+        .state("shop", {
+          url: "/shop/:category/:collection",
+          templateUrl: "templates/shop.html",
+          controller: "ShopController",
+          controllerAs: "vm",
+          resolve: {
+            category: function($stateParams) {
+              return $stateParams.category;
+            },
+            collection: function($stateParams) {
+              return $stateParams.collection;
+            }
+          }
+
         })
         .state("manifest", {
           url: "/manifesto",
@@ -28,12 +37,6 @@
           url: "/begood",
           templateUrl: "templates/begood.html",
           controller: "BegoodController",
-          controllerAs: "vm"
-        })
-        .state("theman", {
-          url: "/theman",
-          templateUrl: "templates/mensshop.html",
-          controller: "ThemanController",
           controllerAs: "vm"
         });
     }]);

@@ -4,18 +4,37 @@ body {
   background-color: white;
 }
 
+.dapperlogo {
+  font-family: 'lobster';
+  font-size: 20px;
+}
+
+.logoimage {
+  padding-left: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.carouselcenter {
+  margin: 0 auto;
+  max-height: 600px;
+  max-width: 800px;
+}
+
+
 /*navbar styling and links*/
+
+.glyphicon {
+ font-size: 30px;
+  float: right;
+  margin-right: 90px;
+  padding-top: 30px;
+}
 
 #row {
   display: inline-block;
   vertical-align: center;
 
-}
-
-#logopipe {
-  float: left;
-  width: 100px;
-  height: 60px;
 }
 
 #navbarbackground {
@@ -48,14 +67,11 @@ body {
   font-size: 30px;
 }
 
-.navlinks {
+#navlinks {
   text-align: center
 }
 
-
-/*column 2 navbar text and link styling*/
-
-#theman {
+.finalheader a {
   margin-left: 10px;
   padding-left: 20px;
   vertical-align: center;
@@ -63,112 +79,10 @@ body {
   font-size: 20px;
 }
 
-#lifestyle {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#begood {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#manifesto {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#wool {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#camping {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#home {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#bottoms {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#tops {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-#outerwear {
-  margin-left: 10px;
-  padding-left: 20px;
-  vertical-align: center;
-  color: #696969;
-  font-size: 20px;
-}
-
-/* fade on slider */
-
-#homeslides {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
+.navbar-header {
   width: 100%;
-  position: relative;
-  overflow: hidden;
 }
 
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  -moz-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-}
-.carousel-fade .carousel-inner .active {
-  opacity: 1 !important;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-.carousel-fade .carousel-control {
-  z-index: 2;
-}
 
 
 /*shop styling*/
@@ -176,7 +90,7 @@ body {
 #storefront {
   text-align: center;
   padding-top: 75px;
-  font-size: 75px;
+  font-size: 90px;
   font: #696969;
   background-color: #DCDCDC;
   height: 250px;
@@ -186,14 +100,23 @@ body {
   z-index: -100;
 }
 
-
-/*#nav-right {
+#message {
   text-align: center;
-  vertical-align: center;
-  padding-top: 15px;
-  padding-left: 22%;
-  font-size: 17px;
-}*/
+  padding-top: 50px;
+  font-size: 90px;
+  font: #696969;
+  background-color: #DCDCDC;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: -100;
+}
+
+#statement {
+  font-size: 20px;
+}
+
 
 
 
