@@ -38,6 +38,13 @@
           templateUrl: "templates/begood.html",
           controller: "BegoodController",
           controllerAs: "vm"
+        })
+        .state("shoppingcart", {
+          url: "/shoppingcart",
+          templateUrl: "templates/shoppingcart.html",
+          controller: "CartController",
+          controllerAs: "vm"
         });
+
     }]);
 })();
