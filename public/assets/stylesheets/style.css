@@ -1,6 +1,6 @@
 body {
   font-family: 'Ubuntu Condensed', ariel;
-  color: #696969;
+  color: #545454;
   background-color: white;
 }
 
@@ -41,12 +41,12 @@ body {
   background-color: none;
   height: 60px;
   padding-top: 10px;
-  border: 1px solid #696969;
+  border: 1px solid #545454;
 }
 
 .left a {
   padding-left: 20px;
-  color: #696969;
+  color: ##545454;
   font-size: 30px;
 }
 
@@ -54,7 +54,7 @@ body {
 .center {
   padding-left: 20px;
   padding-top: 10px;
-  color: #696969;
+  color: #545454;
   font-size: 30px;
 }
 
@@ -63,7 +63,7 @@ body {
   margin-left: 10px;
   padding-left: 20px;
   vertical-align: center;
-  color: #696969;
+  color: #545454;
   font-size: 30px;
 }
 
@@ -75,7 +75,7 @@ body {
   margin-left: 10px;
   padding-left: 20px;
   vertical-align: center;
-  color: #696969;
+  color: #545454;
   font-size: 20px;
 }
 
@@ -91,8 +91,8 @@ body {
   text-align: center;
   padding-top: 75px;
   font-size: 90px;
-  font: #696969;
-  background-color: #DCDCDC;
+  font: #545454;
+  background-color: #ededed;
   height: 250px;
   width: 100%;
   position: relative;
@@ -104,8 +104,8 @@ body {
   text-align: center;
   padding-top: 50px;
   font-size: 90px;
-  font: #696969;
-  background-color: #DCDCDC;
+  font: #545454;
+  background-color: #ededed;
   height: 250px;
   width: 100%;
   position: relative;

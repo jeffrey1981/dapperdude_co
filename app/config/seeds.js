@@ -2,9 +2,9 @@ var mongoose = require('../config/db.js');
 var Collection = require('../models/db.js');
 // console.log('wtf');
 Collection.create({
-  title: "shirts",
-  titlePermalink: "shirts",
-  categoryPermalink: "men",
+  title: "Tops",
+  titlePermalink: "tops",
+  categoryPermalink: " men",
   category: "men",
   products: [{
     title: "blue shirt",
