@@ -7,6 +7,7 @@ Collection.create({
   categoryPermalink: " men",
   category: "men",
   products: [{
+    imageUrl: "",
     title: "blue shirt",
     price: 35.99,
     variants: [{ size: "M" }]

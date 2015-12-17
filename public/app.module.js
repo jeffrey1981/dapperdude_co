@@ -29,22 +29,13 @@
         })
         .state("manifest", {
           url: "/manifesto",
-          templateUrl: "templates/manifesto.html",
-          controller: "ManifestController",
-          controllerAs: "vm"
+          templateUrl: "templates/manifesto.html"
         })
         .state("begood", {
           url: "/begood",
-          templateUrl: "templates/begood.html",
-          controller: "BegoodController",
-          controllerAs: "vm"
-        })
-        .state("shoppingcart", {
-          url: "/shoppingcart",
-          templateUrl: "templates/shoppingcart.html",
-          controller: "CartController",
-          controllerAs: "vm"
+          templateUrl: "templates/begood.html"
         });
+
 
     }]);
 })();

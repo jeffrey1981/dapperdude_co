@@ -4,6 +4,7 @@ var variantSchema = new mongoose.Schema({
 });
 
 var productSchema = new mongoose.Schema({
+  imageUrl: String,
   title:    String,
   price:   Number,
   variants: [variantSchema]
