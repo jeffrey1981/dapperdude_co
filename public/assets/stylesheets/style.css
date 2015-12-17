@@ -21,6 +21,13 @@ body {
   max-width: 700px;
 }
 
+.cause {
+  padding-top: 20px;
+  padding-left: 40px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
 
 /*navbar styling and links*/
 
