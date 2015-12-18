@@ -27,6 +27,7 @@
             imageUrl: "assets/images/tops1.jpeg",
             title: "Koto natural knit",
             price: 89.99,
+            description: "This is a hipster sweater",
             variants: [{ size: "M" }]
           },
           {
@@ -115,7 +116,7 @@
           products: [
           {
             imageUrl: "assets/images/everything10.jpeg",
-            title: "See those pimples",
+            title: "See those pimples - Mini Microscope",
             price: 39.99,
             variants: [{ size: "M" }]
           },
