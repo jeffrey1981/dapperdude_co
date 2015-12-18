@@ -1,7 +1,7 @@
 body {
   font-family: 'Ubuntu Condensed', ariel;
   color: #404040;
-  background-image: url(../assets/images/marble.png);
+  /*background-image: url("../images/marble.png");*/
 }
 
 .dapperlogo {

@@ -280,9 +280,9 @@
             variants: [{ size: "" }]
           },
           {
-            imageUrl: "assets/images/tops7.jpeg",
-            title: "Quilted Ramen Lover",
-            price: 79.99,
+            imageUrl: "assets/images/fun6.jpeg",
+            title: "THe lonely traveler",
+            price: 25.50,
             variants: [{ size: "M" }]
 
           }]
