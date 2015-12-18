@@ -97,9 +97,29 @@ body {
 /*shop styling*/
 
 .buy {
-  background-color: #ededed;
-  font-family: 'Ubuntu Condensed';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100px;
+  padding: 20px;
+  font-size: 20px;
+  overflow: hidden;
+  border: none;
+  font: normal 16px/1 'Ubuntu Condensed', Times, serif;
+  color: white;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #404040;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
+ /* background-color: #404040;
+  font-family: 'Ubuntu Condensed';
+  color: white;
+  box-shadow: none;*/
+
 
 .clothing {
   display: inline-block;
