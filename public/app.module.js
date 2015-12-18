@@ -13,9 +13,9 @@
           controllerAs: "vm"
         })
         .state("shop", {
-          url: "/shop/:category/:collection",
-          templateUrl: "templates/shop.html",
-          controller: "ShopController",
+          url: "/shops/:category/:collection",
+          templateUrl:  "templates/shop.html",
+          controller:   "ShopController",
           controllerAs: "vm",
           resolve: {
             category: function($stateParams) {

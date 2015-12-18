@@ -2,20 +2,36 @@
 <div class="lifestylemenu finalheader" id="life">
   <div class="navbar-header nav-center">
     <div id="navlinks" class="nav-center">
-    <a ng-repeat="submenu in vm.subMenus">{{ submenu.title }}</a>
+      <a ng-show="vm.params.category === 'men'" ui-sref="shop({category: 'men', collection: 'trousers'})" style="text-decoration: none">Trousers</a>
+      <a ng-show="vm.params.category === 'men'" ui-sref="shop({category: 'men', collection: 'tops'})" style="text-decoration: none">Tops</a>
+      <a ng-show="vm.params.category === 'men'" ui-sref="shop({category: 'men', collection: 'other'})" style="text-decoration: none">Everything Else</a>
+      <a ng-show="vm.params.category === 'life'" ui-sref="shop({category: 'life', collection: 'camping'})" style="text-decoration: none">Camping</a>
+      <a ng-show="vm.params.category === 'life'" ui-sref="shop({category: 'life', collection: 'home'})" style="text-decoration: none">Home</a>
+      <a ng-show="vm.params.category === 'life'" ui-sref="shop({category: 'life', collection: 'fun'})" style="text-decoration: none">Fun</a>
     </div>
   </div>
 </div>
 
-<section class="The Mens Shop" id="menshop">
+<section ng-show="vm.params.category === 'men'" class="the-mens-shop" id="menshop">
+    <div id="storefront">
+      <h1 id="contactme">The man</h1>
+    </div>
+</section>
+
+<section ng-show="vm.params.category === 'life'" class="the-lifestyle-shop" id="menshop">
     <div id="storefront">
       <h1 id="contactme">A life well lived</h1>
     </div>
 </section>
 
 <section>
-  <div ng-repeat="item in vm.items">
-    <h3>{{ item.title }}</h3>
-    <p>{{ item.price }}</p>
+  <div ng-repeat="collection in vm.data.catalog | filter:{category: vm.params.category, collection: vm.params.collection}">
+    <h2>{{ collection.name }}</h2>
+    <div class="clothing" ng-repeat="item in collection.products">
+      <h3>{{ item.title }}</h3>
+      <img src="{{ item.imageUrl }}">
+      <p>{{ item.price }}</p>
+      <button>Add to Cart</button>
+    </div>
   </div>
 </section>

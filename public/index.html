@@ -15,16 +15,15 @@
 <body>
 
 <div class="container-fluid" ng-controller="MenuController as menu">
-{{ menu.catalog }}
     <div class="row">
       <div class="col-xs-4 border">
         <img class="logoimage" id="logoPipe" src="./assets/images/dapper.png" width="60px" height="60px"/></a>
         <a class="dapperlogo" id="homepage" ui-sref="home" style="text-decoration: none">The Dapper Dude & Co.</a>
       </div>
       <div class="col-xs-4 border center finalheader">
-        <a id="theman" ui-sref="shop" style="text-decoration: none">The Man</a>
-        <a id="lifestyle" ui-sref="shop({category: 'life'})" style="text-decoration: none">Lifestyle</a>
-        <a id="begood" ui-sref="begood" style="text-decoration: none">Be Good</a>
+        <a id="theman"    ui-sref="shop({category: 'men', collection: ''})"  style="text-decoration: none">The Man</a>
+        <a id="lifestyle" ui-sref="shop({category: 'life', collection: ''})" style="text-decoration: none">Lifestyle</a>
+        <a id="begood"    ui-sref="begood" style="text-decoration: none">Be Good</a>
         <a id="manifesto" ui-sref="manifest" style="text-decoration: none">Manifesto</a>
       </div>
       <div class="col-xs-4 border" ng-controller="CartController as cart">
@@ -44,6 +43,7 @@
     <script src="controllers/home.controller.js"></script>
     <script src="controllers/menu.controller.js"></script>
     <script src="controllers/cart.controller.js"></script>
+    <script src="controllers/shop.controller.js"></script>
     <script src="services/catalog.data.service.js"></script>
   </body>
 </head>

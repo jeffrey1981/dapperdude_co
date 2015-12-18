@@ -8,11 +8,9 @@
 
     function MenuController(CatalogDataService) {
       var vm = this;
+
       vm.catalog = CatalogDataService.catalog;
 
     }
-
-
-
 
 })();
