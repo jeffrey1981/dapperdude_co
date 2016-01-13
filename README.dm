@@ -1,5 +1,5 @@
 # The Dapper Dude & Co.
-![Dapper home page] (https://i.imgur.com/6yFjRxS.jpg)
+![] (https://i.imgur.com/7ptYqZK.png)
 
 ###link
 
@@ -35,5 +35,10 @@ https://trello.com/b/exoORkTL/dapper-dude-co
 - Here you will find User stories
 - Wireframes.
 ________________________________________
-##Dapper Dude & Co.
+##Dapper Dude Technologies
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
