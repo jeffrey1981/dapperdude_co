@@ -34,7 +34,9 @@ https://trello.com/b/exoORkTL/dapper-dude-co
 
 - Here you will find User stories
 - Wireframes.
+
 ________________________________________
+
 ##Technologies Used
 
 Development | Design | Deployment
