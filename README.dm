@@ -35,10 +35,15 @@ https://trello.com/b/exoORkTL/dapper-dude-co
 - Here you will find User stories
 - Wireframes.
 ________________________________________
-##Dapper Dude Technologies
+##=Technologies
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Development | Design | Deployment
+------------ | ------------- | -------------
+HTML | CSS | Heroku
+Git | Photoshop | MongoLab
+GitHub | Bootstrap | 
+Javascript/jQuery | 
+Node.js |
+Angular.js |
+MongoDb |
 
