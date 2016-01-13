@@ -1,7 +1,7 @@
 # The Dapper Dude & Co.
 ![] (https://i.imgur.com/6yFjRxS.jpg)
 
-###link
+###Link
 
 http://comingsoon
 
