@@ -1,5 +1,5 @@
 # The Dapper Dude & Co.
-![] (https://i.imgur.com/6yFjRxS.jpg)
+![Dapper home page] (https://i.imgur.com/6yFjRxS.jpg)
 
 ###link
 
