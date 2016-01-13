@@ -1,4 +1,8 @@
 # The Dapper Dude & Co.
+
+________________________________________
+The Dapper Dude & Co. is an online store for the gentleman. The Gentleman that not only takes care of himself but also the world around him. He can feel good leaving the house is his new trousers knowing a percentage of his purchase went to a great charity. Why shoud taking care your yourself not insclude the world we live in. We are in this together. My goal was to use my strong design and creative ethetic to build a full stack app that is masciline, yet beautiful.
+________________________________________
 ![] (https://i.imgur.com/6yFjRxS.jpg)
 
 ###Link
