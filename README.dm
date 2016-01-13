@@ -27,12 +27,13 @@ ________________________________________
 - [ ] As a user, I would like to have live chat option.
 - [ ] As a user, I would like to add items to a wish list.
 
+________________________________________
 ##Trello board
 
 https://trello.com/b/exoORkTL/dapper-dude-co
 
 - Here you will find User stories
 - Wireframes.
-
+________________________________________
 ##Dapper Dude & Co.
 
